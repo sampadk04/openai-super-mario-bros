@@ -1,10 +1,14 @@
-# openai-super-mario-bros
+# OpenAI Super Mario Bros
 
-A Reinforcement Learning implementation on the OpenAI Gym environment setup for Super Mario Bros using the PPO (Proximal Policy Optimization) Algorithm.
+A Reinforcement Learning implementation in the OpenAI Gym environment for Super Mario Bros, using the Proximal Policy Optimization (PPO) algorithm.
 
-- We use OpenAI gym environment setup for Super Mario Bros to train a Reinforcement Learning Model using PPO (Proximal Policy Optimization) algorithm.
-- We follow the steps below: 
-    - preprocessing the enviroment
-    - simplifying the movements for easier learning
-    - grayscaling frames to reduce computation
-    - vectorizing and stacking environments to keep track of multiple frames
+## Overview
+
+This project leverages the OpenAI Gym environment to train a reinforcement learning model to play Super Mario Bros. The PPO (Proximal Policy Optimization) algorithm is utilized to optimize the model's performance.
+
+## Key Features
+
+- **Preprocessing the Environment:** Preparing the Super Mario Bros environment for efficient training.
+- **Simplified Movements:** Reducing the complexity of Mario's movements to facilitate easier learning.
+- **Grayscale Frames:** Converting frames to grayscale to decrease computational load.
+- **Vectorizing and Stacking Environments:** Managing multiple frames simultaneously to enhance tracking and decision-making.
